@@ -37,7 +37,9 @@ import { FormsModule } from "@angular/forms";
     MatSelectModule,
     MatInputModule,
     FormsModule,
+    MatToolbarModule,
   ],
+  exports: [SubdivisionDataDisplayComponent, MatToolbarModule, HeaderComponent],
   providers: [SubdivisionDataDisplayService],
   bootstrap: [AppComponent],
 })
