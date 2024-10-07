@@ -61,7 +61,7 @@ export class SubdivisionDataDisplayComponent implements OnInit, AfterViewInit {
     "latitude",
     "fieldSurveyTerritoryId",
     "subdivisionStatusCode",
-    "surveyMethodCode"
+    "surveyMethodCode",
   ];
 
   subdivisionDataCodes: SubdivisionDataCode[] = [
